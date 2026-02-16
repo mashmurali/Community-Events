@@ -37,13 +37,46 @@ This project was built as part of a Frontend Developer Intern assignment.
 
 ---
 
-## ⚙️ How to Run the Project
 
-Follow these steps:
+Proper Guide to Run / Setup the Project
 
-### 1️⃣ Clone the repository
+## ⚙️ How to Run / Setup the Project
+
+Follow these steps to run the project locally on your machine:
+
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone
+git clone https://github.com/mashmurali/Community-Events/tree/master
 
-https://github.com/mashmurali/Community-Events
+2️⃣ Navigate into the Project Folder
+cd local-community-events
+
+3️⃣ Install Dependencies
+
+Make sure you have Node.js (v16 or higher) installed.
+
+Then run:
+
+npm install
+
+
+This will install all required packages.
+
+4️⃣ Start the Development Server
+npm run dev
+
+5️⃣ Open in Browser
+
+After running the above command, the app will start at:
+
+http://localhost:5173
+
+
+Open this URL in your browser to view the application.
+
+🛑 To Stop the Server
+
+Press:
+
+Ctrl + C
